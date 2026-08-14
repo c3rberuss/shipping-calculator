@@ -1,0 +1,151 @@
+---
+import { catalog } from '../data/index.js';
+import '../styles/app.css';
+import { baseHref, withBase } from '../ui/paths.js';
+
+const categoryCount = catalog.categories.length;
+
+const base = import.meta.env.BASE_URL;
+const home = baseHref(base);
+const title = 'Comparador de envíos USA a El Salvador';
+const description =
+  'Compará en una sola consulta cuánto cuesta traer tu compra de Estados Unidos a El Salvador con Quickbox, Shop USA y Buyex.';
+// `Astro.site` es undefined si no se configuro; en ese caso se omite la canonica
+// en vez de emitir una URL relativa, que no sirve de nada.
+const canonical = Astro.site ? new URL(home, Astro.site).href : null;
+---
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" href={withBase(base, 'favicon.svg')} type="image/svg+xml" />
+    {canonical && <link rel="canonical" href={canonical} />}
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:locale" content="es_SV" />
+    {canonical && <meta property="og:url" content={canonical} />}
+    <meta name="twitter:card" content="summary" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#formulario">Ir al formulario</a>
+
+    <header class="site-header">
+      <h1>Comparador de envíos</h1>
+      <p class="tagline">
+        Estados Unidos a El Salvador. Una sola consulta en vez de tres.
+      </p>
+    </header>
+
+    <p class="disclaimer" role="note">
+      <strong>Estos montos son estimaciones y no son vinculantes.</strong> El precio
+      final lo determina cada proveedor, y sus tarifas pueden cambiar sin aviso.
+      Este sitio es independiente y no está afiliado, patrocinado ni avalado por
+      Quickbox, Shop USA ni Buyex; los nombres se usan solo para identificar de
+      quién es cada cotización. Confirmá siempre en el cotizador oficial antes de
+      decidir.
+    </p>
+
+    <main>
+      <form id="formulario" class="quote-form" novalidate autocomplete="off">
+        <div class="field">
+          <label for="peso">Peso del paquete</label>
+          <div class="input-wrap">
+            <input
+              id="peso"
+              name="peso"
+              type="number"
+              inputmode="decimal"
+              step="0.1"
+              min="0.1"
+              placeholder="0.0"
+              aria-describedby="peso-hint"
+            />
+            <span class="suffix" aria-hidden="true">lb</span>
+          </div>
+          <p id="peso-hint" class="hint">
+            Peso real. Cada proveedor lo redondea a su manera.
+          </p>
+        </div>
+
+        <div class="field">
+          <label for="valor">Valor de la compra</label>
+          <div class="input-wrap">
+            <span class="prefix" aria-hidden="true">$</span>
+            <input
+              id="valor"
+              name="valor"
+              type="number"
+              inputmode="decimal"
+              step="0.01"
+              min="0"
+              placeholder="0.00"
+              aria-describedby="valor-hint"
+            />
+          </div>
+          <p id="valor-hint" class="hint">
+            Lo que dice tu factura. Define los impuestos.
+          </p>
+        </div>
+
+        <div class="field field--combo">
+          <label for="categoria">Categoría</label>
+          <div class="combo">
+            <input
+              id="categoria"
+              name="categoria"
+              type="text"
+              role="combobox"
+              aria-expanded="false"
+              aria-controls="categoria-lista"
+              aria-autocomplete="list"
+              aria-describedby="categoria-hint"
+              placeholder="Buscá tu artículo"
+            />
+            <button
+              type="button"
+              id="categoria-limpiar"
+              class="combo__clear"
+              aria-label="Limpiar categoría"
+              hidden>&times;</button
+            >
+            <ul id="categoria-lista" class="combo__list" role="listbox" hidden>
+            </ul>
+          </div>
+          <!-- El texto lo reescribe initApp segun el valor declarado; este es
+               el mismo de la rama "sin valor" para que no haya parpadeo. -->
+          <p id="categoria-hint" class="hint">
+            {categoryCount} categorías. Solo influye en compras de $300 o más.
+          </p>
+        </div>
+      </form>
+
+      <section id="resultados" class="results" aria-live="polite" aria-busy="false">
+      </section>
+
+      <section id="historial" class="results"></section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        Shop USA y Buyex se calculan en tu navegador, con tarifas versionadas en
+        el repositorio. Quickbox calcula en su propio servidor, así que para esa
+        tarjeta el peso, el valor y la categoría se le envían a Quickbox; la
+        respuesta se guarda un día en tu equipo para no repetir la consulta.
+        Nada se envía a ningún otro servidor, y no hay analítica ni rastreo.
+      </p>
+    </footer>
+
+    <script>
+      import { initApp } from '../ui/app.js';
+
+      initApp();
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Comparador de envíos">
+  <!-- Se adapta al tema del navegador: en oscuro el fondo se aclara. -->
+  <style>
+    .bg { fill: #0e4e94; }
+    .fg { fill: none; stroke: #ffffff; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #7fb0e8; }
+      .fg { stroke: #101317; }
+    }
+  </style>
+  <rect class="bg" width="32" height="32" rx="7" />
+  <!-- Caja vista de frente, con la flecha de entrada. -->
+  <path class="fg" d="M7 13.5 16 9l9 4.5v9L16 27l-9-4.5z" />
+  <path class="fg" d="M7 13.5 16 18l9-4.5M16 18v9" />
+</svg>

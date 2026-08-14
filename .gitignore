@@ -1,0 +1,18 @@
+# build
+dist/
+.astro/
+
+# deps
+node_modules/
+
+# entorno
+.env
+.env.*
+!.env.example
+
+# sistema
+.DS_Store
+*.log
+
+# salidas del script de muestreo de Quickbox (fase 4)
+scripts/.samples/

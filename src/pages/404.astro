@@ -1,0 +1,33 @@
+---
+import '../styles/app.css';
+import { baseHref, withBase } from '../ui/paths.js';
+
+// GitHub Pages sirve este archivo ante cualquier ruta inexistente.
+const base = import.meta.env.BASE_URL;
+const home = baseHref(base);
+---
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Página no encontrada · Comparador de envíos</title>
+    <meta name="robots" content="noindex" />
+    <link rel="icon" href={withBase(base, 'favicon.svg')} type="image/svg+xml" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <h1>Esta página no existe</h1>
+      <p class="tagline">
+        El enlace puede estar mal copiado o apuntar a algo que ya no está.
+      </p>
+    </header>
+
+    <main>
+      <p class="empty">
+        <a href={home}>Ir al comparador de envíos</a>
+      </p>
+    </main>
+  </body>
+</html>

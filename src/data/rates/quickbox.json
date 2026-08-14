@@ -1,0 +1,48 @@
+{
+  "providerId": "quickbox",
+  "providerName": "Quickbox",
+  "verifiedAt": "2026-08-13",
+  "sourceUrl": "https://node.qs.gt/cotizador",
+  "officialQuoterUrl": "https://www.quickboxusa.com/webapp/#/cotizador?pais=SV",
+  "confidence": "live",
+  "endpoint": "https://node.qs.gt/cotizador",
+  "paisId": "3",
+  "plans": [
+    {
+      "planId": "18",
+      "nombre": "Estándar",
+      "costoPlanUsd": 0,
+      "duracionMeses": 0,
+      "librasIncluidas": 0,
+      "costoLibraUsd": 3.3
+    },
+    {
+      "planId": "34",
+      "nombre": "Premium",
+      "costoPlanUsd": 99,
+      "duracionMeses": 12,
+      "librasIncluidas": 33,
+      "costoLibraUsd": 3
+    }
+  ],
+  "subscriptionNote": "Su API cobra $3.00/lb con el plan Premium pero no descuenta las 33 libras prepagadas ni suma el costo del plan. El total mostrado asume que ya pagás la suscripción y agotaste las libras incluidas.",
+  "timeoutMs": 6000,
+  "daiThresholdUsd": 300,
+  "noCategoryArancel": {
+    "arancelId": "228.0",
+    "note": "Su API exige arancel_id siempre, pero bajo el umbral el arancel no cambia el resultado: con 5 lb y $250, los aranceles del 0%, 5%, 15% y 30% devuelven todos $61.75 (verificado el 2026-08-13). Se envía uno del 0% para poder cotizar sin categoría, igual que Shop USA y Buyex."
+  },
+  "modes": {
+    "aereo": {
+      "transitDays": {
+        "min": 3,
+        "max": 5
+      }
+    }
+  },
+  "notes": [
+    "Cotizado en vivo por Quickbox con el plan Estándar, que paga por libra sin suscripción.",
+    "El flete y la gestión de aeropuerto ya incluyen el IVA.",
+    "Quickbox no publica la base gravable de su IVA, así que no se muestra."
+  ]
+}

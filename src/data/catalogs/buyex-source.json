@@ -1,0 +1,843 @@
+{
+  "providerId": "buyex",
+  "extractedAt": "2026-08-13",
+  "sourceUrl": "https://comprabuyex.com/cotizarconbuyex/",
+  "note": "Catalogo extraido del select del cotizador de Buyex. daiRate viene de data-dai, que es el valor que su calculadora usa; la etiqueta de CALZADO dice 15% pero data-dai es 14.",
+  "categories": [
+    {
+      "optionValue": "167",
+      "name": "*COMPRAS MENORES A $300.00 DOLARES EXENTA DE DAI",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "5",
+      "name": "ACCESORIOS DE VESTIR (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "113",
+      "name": "ACCESORIOS PARA CAMARA (10% DAI)",
+      "daiRate": 0.1
+    },
+    {
+      "optionValue": "109",
+      "name": "ACCESORIOS PARA TELEFONOS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "138",
+      "name": "ACEITE DE CAJA (AUTOMOVILES) (10% DAI)",
+      "daiRate": 0.1
+    },
+    {
+      "optionValue": "137",
+      "name": "ACEITE DE MOTOR (AUTOMOVILES) (10% DAI)",
+      "daiRate": 0.1
+    },
+    {
+      "optionValue": "59",
+      "name": "ADORNOS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "25",
+      "name": "AIRE ACONDICIONADO (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "61",
+      "name": "ALFOMBRAS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "131",
+      "name": "ALMOHADAS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "62",
+      "name": "AMPLIFICADORES (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "63",
+      "name": "ANDADERAS PARA ADULTO (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "64",
+      "name": "ANTENAS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "123",
+      "name": "AROMATICS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "9",
+      "name": "ARTICULOS DE COCINA (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "10",
+      "name": "ARTICULOS DE MESA (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "18",
+      "name": "ARTICULOS ESCOLARES (10% DAI)",
+      "daiRate": 0.1
+    },
+    {
+      "optionValue": "79",
+      "name": "ARTICULOS PARA DECORACION DE BANO (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "129",
+      "name": "ASIENTOS PARA AUTO (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "48",
+      "name": "ASPIRADORAS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "65",
+      "name": "AUDIFONOS (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "112",
+      "name": "AUDIFONOS BLUETOOTH (5% DAI)",
+      "daiRate": 0.05
+    },
+    {
+      "optionValue": "153",
+      "name": "BASCULAS (PARA PESAR PERSONAS) (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "66",
+      "name": "BASTONES (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "176",
+      "name": "BATERIAS DE PLOMO (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "127",
+      "name": "BATERIAS PARA LAPTOP (LITIO) (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "13",
+      "name": "BICICLETAS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "8",
+      "name": "BISUTERIA (14% DAI)",
+      "daiRate": 0.14
+    },
+    {
+      "optionValue": "116",
+      "name": "BOCINA BLUETOOTH (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "68",
+      "name": "BOCINAS (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "49",
+      "name": "BOMBAS DE AGUA, SIMILARES (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "149",
+      "name": "BUZON GALVANIZADO (10% DAI)",
+      "daiRate": 0.1
+    },
+    {
+      "optionValue": "29",
+      "name": "CABLES DE PODER (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "26",
+      "name": "CAFETERAS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "133",
+      "name": "CALCULADORAS (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "69",
+      "name": "CALENDARIOS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "3",
+      "name": "CALZADO (15% DAI)",
+      "daiRate": 0.14
+    },
+    {
+      "optionValue": "73",
+      "name": "CAMARA WEB (13% DAI)",
+      "daiRate": 0.13
+    },
+    {
+      "optionValue": "72",
+      "name": "CAMARAS DIGITALES DE VIDEO O FOTOGRAFICAS (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "71",
+      "name": "CAMAS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "157",
+      "name": "CAPACITORES (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "139",
+      "name": "CARGADOR INALAMBRICO (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "50",
+      "name": "CARGADORES DE BATERIAS (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "51",
+      "name": "CARRETILLA METALICA (10% DAI)",
+      "daiRate": 0.1
+    },
+    {
+      "optionValue": "2",
+      "name": "CARTERAS,BILLETERAS Y SIMILARES (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "75",
+      "name": "CASSETTE (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "52",
+      "name": "CAUTIN ELECTRICO (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "74",
+      "name": "CAÑA DE PESCAR (10% DAI)",
+      "daiRate": 0.1
+    },
+    {
+      "optionValue": "121",
+      "name": "CD PLAYER (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "128",
+      "name": "CD PLAYER BLUETOOTH (20% DAI)",
+      "daiRate": 0.2
+    },
+    {
+      "optionValue": "76",
+      "name": "CDS EN BLANCO (10% DAI)",
+      "daiRate": 0.1
+    },
+    {
+      "optionValue": "42",
+      "name": "CELULARES (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "173",
+      "name": "CHAMPU (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "142",
+      "name": "CINTURONES DE CUERO (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "27",
+      "name": "COCINAS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "156",
+      "name": "COMIDA PARA PECES (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "54",
+      "name": "COMPRESORES DE AIRE (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "28",
+      "name": "COMPUTADORAS Y ACCESORIOS(EXCEPTO CABLES) (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "14",
+      "name": "CONSOLAS Y ACCESORIOS DE VIDEOJUEGOS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "148",
+      "name": "CONTROLES A DISTANCIA (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "144",
+      "name": "CORREAS (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "19",
+      "name": "COSMETICOS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "124",
+      "name": "CREMAS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "80",
+      "name": "CUADROS DE PARED (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "20",
+      "name": "DENTRIFICOS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "171",
+      "name": "DISCOS DUROS PARA PC (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "115",
+      "name": "DRONE (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "165",
+      "name": "EQUIPO DE RED SWITCH (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "140",
+      "name": "EQUIPO DE SEGURIDAD (5% DAI)",
+      "daiRate": 0.05
+    },
+    {
+      "optionValue": "30",
+      "name": "EQUIPO DE SONIDO (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "84",
+      "name": "EQUIPO DE USO MEDICO (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "17",
+      "name": "EQUIPO DEPORTIVO (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "56",
+      "name": "ESCALERAS (10% DAI)",
+      "daiRate": 0.1
+    },
+    {
+      "optionValue": "82",
+      "name": "ESCOBAS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "83",
+      "name": "ESPEJOS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "57",
+      "name": "EXTINTOR DE INCENDIOS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "31",
+      "name": "EXTRACTOR DE JUGOS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "136",
+      "name": "FAJAS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "134",
+      "name": "FILTROS DE AIRE PARA CARRO/MOTOS (10% DAI)",
+      "daiRate": 0.1
+    },
+    {
+      "optionValue": "158",
+      "name": "FUSIBLES (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "161",
+      "name": "GUITARRAS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "86",
+      "name": "HALOGENOS PARA VEHICULO (5% DAI)",
+      "daiRate": 0.05
+    },
+    {
+      "optionValue": "55",
+      "name": "HERRAMIENTAS DE MANO (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "53",
+      "name": "HERRAMIENTAS NEUMATICAS/HIDRAULICAS (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "33",
+      "name": "HORNOS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "87",
+      "name": "IMPRESORES (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "172",
+      "name": "INFLABLES (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "85",
+      "name": "INSTRUMENTOS MUSICALES (10% DAI)",
+      "daiRate": 0.1
+    },
+    {
+      "optionValue": "22",
+      "name": "JABONES (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "88",
+      "name": "JOYERÍA (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "15",
+      "name": "JUEGO DE VIDEO EN CD O DVD (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "12",
+      "name": "JUGUETES (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "89",
+      "name": "LAMPARA DE MANO (5% DAI)",
+      "daiRate": 0.05
+    },
+    {
+      "optionValue": "60",
+      "name": "LAMPARAS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "35",
+      "name": "LAVADORAS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "7",
+      "name": "LENTES (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "162",
+      "name": "LENTES DE CONTACTO (5% DAI)",
+      "daiRate": 0.05
+    },
+    {
+      "optionValue": "67",
+      "name": "LIBROS DE TEXTO (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "36",
+      "name": "LICUADORAS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "90",
+      "name": "LLAVEROS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "154",
+      "name": "LONAS PARA IMPRESIÓN (10% DAI)",
+      "daiRate": 0.1
+    },
+    {
+      "optionValue": "91",
+      "name": "MALETAS Y MOCHILAS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "58",
+      "name": "MANGUERAS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "114",
+      "name": "MAQUINA LAVADORA DE ALFOMBRAS (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "37",
+      "name": "MAQUINAS DE COSER (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "97",
+      "name": "MAQUINAS DE EJERCICIO (10% DAI)",
+      "daiRate": 0.1
+    },
+    {
+      "optionValue": "160",
+      "name": "MAQUINAS DE MASAJES (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "163",
+      "name": "MASCARILLAS (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "150",
+      "name": "MEDIDOR LASER (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "94",
+      "name": "MEMORIAS RAM (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "93",
+      "name": "MEMORIAS USB (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "95",
+      "name": "MICROFONO (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "32",
+      "name": "MICROONDAS (5% DAI)",
+      "daiRate": 0.05
+    },
+    {
+      "optionValue": "166",
+      "name": "MICROSCOPIO (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "119",
+      "name": "MONITORES CON HDMI (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "147",
+      "name": "MOUSE (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "70",
+      "name": "MUEBLES (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "38",
+      "name": "OLLAS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "145",
+      "name": "PAPEL FOTOGRÁFICO (10% DAI)",
+      "daiRate": 0.1
+    },
+    {
+      "optionValue": "155",
+      "name": "PAPEL TAPIZ (10% DAI)",
+      "daiRate": 0.1
+    },
+    {
+      "optionValue": "78",
+      "name": "PARTES DE VEHICULOS(EXCEPTO LAS LUCES) (1% DAI)",
+      "daiRate": 0.01
+    },
+    {
+      "optionValue": "141",
+      "name": "PARTES PARA COCINAS ELECTRICAS (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "152",
+      "name": "PARTES PARA COMPUTADORA (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "122",
+      "name": "PARTES PARA IMPRESORA (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "125",
+      "name": "PARTES PARA MOTO (10% DAI)",
+      "daiRate": 0.1
+    },
+    {
+      "optionValue": "16",
+      "name": "PATINES Y PATINETAS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "96",
+      "name": "PELICULAS EN FORMATO DVD (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "111",
+      "name": "PERFUMES (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "98",
+      "name": "PISCINAS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "168",
+      "name": "PLANCHA PARA SUBLIMADO (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "39",
+      "name": "PLANCHAS ELECTRICAS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "11",
+      "name": "PORTA BEBES (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "21",
+      "name": "PRODUCTOS PARA EL CUIDADO DEL CABELLO (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "118",
+      "name": "PROYECTORES DE VIDEO (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "130",
+      "name": "RASURADORA ELECTRICA (10% DAI)",
+      "daiRate": 0.1
+    },
+    {
+      "optionValue": "40",
+      "name": "REFRIGERADORAS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "110",
+      "name": "RELOJ INTELIGENTE (5% DAI)",
+      "daiRate": 0.05
+    },
+    {
+      "optionValue": "175",
+      "name": "RELOJES (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "81",
+      "name": "REPRODUCTOR DE DVD (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "169",
+      "name": "RODAMIENTOS (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "135",
+      "name": "ROLLOS DE PELICULA (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "4",
+      "name": "ROPA (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "77",
+      "name": "ROPA DE CAMA Y ACCESORIOS DE CAMA (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "92",
+      "name": "ROPA DE MESA Y ACCESORIOS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "174",
+      "name": "ROUTER DE RED (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "99",
+      "name": "SABANAS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "23",
+      "name": "SECADORA/PLANCHA DE CABELLO (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "126",
+      "name": "SENSORES (10% DAI)",
+      "daiRate": 0.1
+    },
+    {
+      "optionValue": "151",
+      "name": "SERVILLETAS DE ALGODON COMPRIMIDAS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "120",
+      "name": "SILVINES PARA VEHICULO (5% DAI)",
+      "daiRate": 0.05
+    },
+    {
+      "optionValue": "6",
+      "name": "SOMBREROS GORRAS Y GORROS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "100",
+      "name": "SOMBRILLAS (14% DAI)",
+      "daiRate": 0.14
+    },
+    {
+      "optionValue": "117",
+      "name": "SUPLEMENTO ALIMENTICIO (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "101",
+      "name": "TABLA DE SURF (10% DAI)",
+      "daiRate": 0.1
+    },
+    {
+      "optionValue": "41",
+      "name": "TELEFONOS Y TABLETS (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "43",
+      "name": "TELEVISORES (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "159",
+      "name": "TERMOMETRO LASER (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "132",
+      "name": "TESTER (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "104",
+      "name": "TESTING (30% DAI)",
+      "daiRate": 0.3
+    },
+    {
+      "optionValue": "102",
+      "name": "TIENDA DE CAMPANA (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "170",
+      "name": "TINTAS PARA IMPRESORA (10% DAI)",
+      "daiRate": 0.1
+    },
+    {
+      "optionValue": "24",
+      "name": "TOALLAS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "143",
+      "name": "TONER CON CHIP (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "44",
+      "name": "TOSTADORAS (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "45",
+      "name": "UPS (0% DAI)",
+      "daiRate": 0
+    },
+    {
+      "optionValue": "46",
+      "name": "VENTILADORES (15% DAI)",
+      "daiRate": 0.15
+    },
+    {
+      "optionValue": "47",
+      "name": "VHS (15% DAI)",
+      "daiRate": 0.15
+    }
+  ]
+}

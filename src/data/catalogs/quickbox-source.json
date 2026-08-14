@@ -1,0 +1,1328 @@
+{
+  "providerId": "quickbox",
+  "extractedAt": "2026-08-13",
+  "sourceUrl": "https://node.qs.gt/lista/aranceles (pais_id=3)",
+  "note": "Catalogo de aranceles de Quickbox para El Salvador, obtenido de su API. daiRate viene del campo `valor`, que ya es fraccion.",
+  "categories": [
+    {
+      "arancelId": "744",
+      "name": "Abrelatas:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "227.0",
+      "name": "Accesorio de Aseo Personal",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "228.0",
+      "name": "Accesorio de Cámara",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "229.0",
+      "name": "Accesorio de Carro",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "230.0",
+      "name": "Accesorio de Cocina",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "231.0",
+      "name": "Accesorio de Computacion",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "232.0",
+      "name": "Accesorio de Musica",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "234.0",
+      "name": "Accesorio de Oficina",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "237.0",
+      "name": "Accesorio Deportivo",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "235.0",
+      "name": "Accesorio de Telefonia",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "238.0",
+      "name": "Accesorio Electrico",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "239.0",
+      "name": "Accesorio plastico",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "240.0",
+      "name": "Accesorios de Arma",
+      "daiRate": 0.3
+    },
+    {
+      "arancelId": "241.0",
+      "name": "Accesorios de seguridad",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "745",
+      "name": "accesorios para biberones/pachas:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "242.0",
+      "name": "Accesorios para moto",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "746",
+      "name": "Acordeones e instrumentos similares:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "243.0",
+      "name": "Adornos de sala",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "747",
+      "name": "Afeitadoras:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "748",
+      "name": "Agendas:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "749",
+      "name": "Agujas de coser, zurcir o bordar:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "750",
+      "name": "Alfileres de gancho:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "244.0",
+      "name": "Alfombras",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "751",
+      "name": "Alfombras:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "752",
+      "name": "Altavoces (altoparlantes):",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "753",
+      "name": "Amplificadores eléctricos de audiofrecuencia:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "245.0",
+      "name": "Anillos, aretes",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "754",
+      "name": "Aparatos de depilar:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "246.0",
+      "name": "Aparatos de medición",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "247.0",
+      "name": "Aparatos de precisión",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "755",
+      "name": "Aparatos de señalización visual en bicicletas:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "756",
+      "name": "Aparatos para preparar café o té:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "757",
+      "name": "Aparatos para secar las manos:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "758",
+      "name": "Aparatos para usos sanitarios:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "759",
+      "name": "Aparatos para vías férreas o similares:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "760",
+      "name": "Armónicas:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "302.0",
+      "name": "Aros de lentes",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "248.0",
+      "name": "Articulos de Cuero",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "249.0",
+      "name": "Articulos de Fiesta",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "761",
+      "name": "Artículos reflectivos de señalización o de seguridad plasticos:",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "762",
+      "name": "Asadores:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "763",
+      "name": "Asientos y tapas de inodoros:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "764",
+      "name": "Aspiradoras:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "233.0",
+      "name": "Audifonos",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "250.0",
+      "name": "Audifonos",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "765",
+      "name": "Avisadores de protección contra robo o incendio:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "766",
+      "name": "Bandoleras:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "767",
+      "name": "Bañeras, duchas y lavabos:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "1588",
+      "name": "Barras de pulir/afilar/rectificar metal:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "768",
+      "name": "Básculas para pesar ganado:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "251.0",
+      "name": "Bateria de Carro",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "769",
+      "name": "Baúles:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "252.0",
+      "name": "Biberon",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "253.0",
+      "name": "Bicicleta",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "254.0",
+      "name": "Billeteras",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "770",
+      "name": "Binoculares:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "255.0",
+      "name": "Bocinas de Carro",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "256.0",
+      "name": "Boligrafos",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "257.0",
+      "name": "Bolsas",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "771",
+      "name": "Brochas para cosmeticos:",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "772",
+      "name": "Bujías de encendido:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "258.0",
+      "name": "Cables 1",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "775",
+      "name": "Cajas, cajones plasticos:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "773",
+      "name": "Cajas de cambio para vehiculos:",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "774",
+      "name": "Cajas de música:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "259.0",
+      "name": "Camara Fotografica",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "776",
+      "name": "Cámaras de televisión, cámaras digitales y videocámaras:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "777",
+      "name": "Cámaras especiales para fotografía submarina o aérea:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "778",
+      "name": "Cámaras especiales para laboratorios:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "779",
+      "name": "Cámaras fotográficas de autorrevelado:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "780",
+      "name": "Candados:",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "260.0",
+      "name": "Cargadores de computadora, celular",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "261.0",
+      "name": "Carruaje",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "781",
+      "name": "Cartapacios:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "262.0",
+      "name": "Cartera",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "782",
+      "name": "Carton para impresion:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "264.0",
+      "name": "Cartucho de Tinta C/Chip",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "263.0",
+      "name": "Cartucho de tinta (Simple)",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "265.0",
+      "name": "Casco de moto",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "783",
+      "name": "Casetes para cintas de máquinas de escribir plasticas:",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "266.0",
+      "name": "Catalogos",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "267.0",
+      "name": "CD´s",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "268.0",
+      "name": "Celulares",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "784",
+      "name": "Cepillos de dientes:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "269.0",
+      "name": "Chaqueta",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "270.0",
+      "name": "Cinta de Impresora",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "785",
+      "name": "Cintos y cinturones:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "786",
+      "name": "Cinturones de seguridad:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "787",
+      "name": "Cobijas y frazadas:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "788",
+      "name": "Cocinas, hornillos (calentadores):",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "789",
+      "name": "Colchones:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "271.0",
+      "name": "Computadoras",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "272.0",
+      "name": "Consola de Videojuegos",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "790",
+      "name": "Contenedores de moldeo y empaque plasticos:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "791",
+      "name": "Contraventanas, persianas plasticos:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "792",
+      "name": "Cortapapeles, sacapuntas y sus cuchillas:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "793",
+      "name": "Cortinas:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "273.0",
+      "name": "Cosmeticos",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "274.0",
+      "name": "Crayones",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "275.0",
+      "name": "Cuadernos",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "794",
+      "name": "Cuadernos:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "795",
+      "name": "Cucharas y tenedores:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "276.0",
+      "name": "Cuna",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "796",
+      "name": "Depósitos, cisternas, cubas de plastico:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "797",
+      "name": "destapadores de botellas:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "798",
+      "name": "Destornilladores:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "277.0",
+      "name": "Discos Duros Vacios",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "799",
+      "name": "Distribuidores; bobinas de encendido:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "278.0",
+      "name": "DVD Player",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "279.0",
+      "name": "Edredon",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "280.0",
+      "name": "Electrodomesticos",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "800",
+      "name": "Envases plasticos:",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "281.0",
+      "name": "Equipo Medico",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "282.0",
+      "name": "Estuche de Cuero",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "283.0",
+      "name": "Estuche Partes Plasticas",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "284.0",
+      "name": "Estuches",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "285.0",
+      "name": "Etiquetas de Papel o Carton",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "286.0",
+      "name": "Etiquetas de Tela",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "801",
+      "name": "Extractoras de jugo de frutos u hortalizas:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "802",
+      "name": "Fotolitografía, heliograbado, fotograbado:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "803",
+      "name": "Fregaderos, lavaplatos:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "287.0",
+      "name": "Gorras/Cachuchas",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "288.0",
+      "name": "Grabadoras",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "804",
+      "name": "Guantes de proteccion para practica de deportes:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "805",
+      "name": "Guantes Especiales para la protección en el trabajo:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "806",
+      "name": "Guantes para baseball y softball:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "807",
+      "name": "Guarniciones de frenos montadas:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "808",
+      "name": "Guitarras:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "809",
+      "name": "herramientas cortantes para trabajar madera:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "1578",
+      "name": "Herramientas de corte industrial:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "810",
+      "name": "Herramientas de manicura o pedicuro:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "289.0",
+      "name": "Herramientas de Mano",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "811",
+      "name": "Herramientas de taladrar o roscar:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "812",
+      "name": "Hilos y cuerdas de caucho revestidos de textiles:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "813",
+      "name": "Hojas de sierra rectas para trabajar metal:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "290.0",
+      "name": "Horno electrico/microondas",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "814",
+      "name": "Hornos de microondas:",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "291.0",
+      "name": "Impresoras",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "815",
+      "name": "Jaulas plasticas:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "816",
+      "name": "Jeringas, incluso con aguja:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "292.0",
+      "name": "Joyeria/Bisuteria",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "294.0",
+      "name": "Juguetes",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "293.0",
+      "name": "Juguetes para bebe",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "295.0",
+      "name": "Lampara de techo o mesa",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "296.0",
+      "name": "Lapiceros  / plumas",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "297.0",
+      "name": "Laptop",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "301.0",
+      "name": "Lentes",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "299.0",
+      "name": "Lentes de Contacto",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "300.0",
+      "name": "Lentes de Sol",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "298.0",
+      "name": "Lentes (solo aro)",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "303.0",
+      "name": "Libros",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "817",
+      "name": "Libros de contabilidad:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "818",
+      "name": "Limpiaparabrisas y eliminadores de escarcha:",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "304.0",
+      "name": "Linterna",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "305.0",
+      "name": "Llantas / Neumaticos",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "306.0",
+      "name": "Llaves",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "307.0",
+      "name": "Luces Navideñas",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "308.0",
+      "name": "Maleta",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "819",
+      "name": "Maletas (Valijas):",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "820",
+      "name": "Maletines:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "821",
+      "name": "Mangueras de caucho y hule:",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "822",
+      "name": "Mangueras de material textil para bombas:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "823",
+      "name": "Maniquies:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "824",
+      "name": "Manostatos (presostatos):",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "309.0",
+      "name": "Maquillaje",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "825",
+      "name": "Máquinas de afeitar:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "826",
+      "name": "Máquinas de cortar el pelo o esquilar:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "827",
+      "name": "Máquinas para equilibrar piezas mecánicas:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "828",
+      "name": "Máquinas para lavar vajilla:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "829",
+      "name": "Máquinas para llenar, cerrar botellas:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "830",
+      "name": "Máquinas para tapar o etiquetar botellas:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "831",
+      "name": "Martillos y mazas:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "310.0",
+      "name": "Material Impreso",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "311.0",
+      "name": "Material Promocional",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "312.0",
+      "name": "Medicamentos",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "460",
+      "name": "Memoria externa",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "832",
+      "name": "Micrófonos y sus soportes:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "833",
+      "name": "Microscopios estereoscópicos:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "313.0",
+      "name": "Motocicleta",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "314.0",
+      "name": "MP3 (iPod)",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "315.0",
+      "name": "Muebles de Casa",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "834",
+      "name": "Neumáticos automoviles:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "835",
+      "name": "Neumáticos bicicleta:",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "836",
+      "name": "Neumáticos motocicleta:",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "837",
+      "name": "Palillos:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "1607",
+      "name": "Pantallas de TV",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "838",
+      "name": "Papel fotografico sin impresion:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "839",
+      "name": "Papel higienico:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "840",
+      "name": "Parachoques:",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "841",
+      "name": "Parillas:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "316.0",
+      "name": "Partes de Bicicleta",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "317.0",
+      "name": "Partes Industriales",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "842",
+      "name": "Partes y accesorios de instrumentos musicales:",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "843",
+      "name": "Peines, pasadores:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "844",
+      "name": "Películas autorrevelables fotograficas:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "845",
+      "name": "Peliculas cinematograficas impresionadas:",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "318.0",
+      "name": "Pelota",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "1591",
+      "name": "perfumes y lociones",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "846",
+      "name": "Pesas/balanzas para personas:",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "847",
+      "name": "Pianos verticales:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "848",
+      "name": "Picahielos:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "1583",
+      "name": "Piedras de pulir/afilar/rectificar metal:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "849",
+      "name": "Pilas y baterias electricas:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "850",
+      "name": "Pinceles y brochas para enlucir, barnizar:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "851",
+      "name": "Pinceles y brochas para pintura artística:",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "852",
+      "name": "Pinturas y dibujos con marco:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "853",
+      "name": "Pinturas y dibujos sin marco:",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "854",
+      "name": "Placas para interruptores o tomacorrientes:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "855",
+      "name": "Planchas eléctricas:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "319.0",
+      "name": "Plastilina",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "856",
+      "name": "Portafolios:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "320.0",
+      "name": "Poster",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "321.0",
+      "name": "Protector de  celular",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "857",
+      "name": "Puertas, ventanas, y sus marcos de plastico:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "858",
+      "name": "Radiadores:",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "322.0",
+      "name": "Radio de Carro",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "323.0",
+      "name": "Raquetas para deportes",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "859",
+      "name": "Registradores de asistencia:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "324.0",
+      "name": "Reloj de Pulsera/Pared",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "325.0",
+      "name": "Repuestos de Carro",
+      "daiRate": 0.01
+    },
+    {
+      "arancelId": "326.0",
+      "name": "Repuestos de Helicoptero",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "327.0",
+      "name": "Repuestos de moto",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "328.0",
+      "name": "Repuestos de Motor de Carro",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "329.0",
+      "name": "Repuestos Electronicos",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "332.0",
+      "name": "Ropa",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "330.0",
+      "name": "Ropa de cama",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "860",
+      "name": "Ropa de cama, mesa, tocador o cocina:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "331.0",
+      "name": "Ropa para bebe",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "861",
+      "name": "Sacacorchos:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "862",
+      "name": "Sacos (bolsas) de dormir (sleeping bag):",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "333.0",
+      "name": "Scanner",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "863",
+      "name": "Secadores para el cabello:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "864",
+      "name": "Servilletas:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "865",
+      "name": "Sierras de mano:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "866",
+      "name": "Silenciadores y tubos:",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "867",
+      "name": "Sillines (asientos):",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "868",
+      "name": "Sillones de dentista, de peluquería:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "1602",
+      "name": "smartwatch:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "334.0",
+      "name": "Software de PC",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "869",
+      "name": "Soldadores y pistolas para soldar:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "870",
+      "name": "Sombrillas:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "871",
+      "name": "Sujetadores de envases plasticos:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "872",
+      "name": "Tablas para cortar:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "873",
+      "name": "Tablas para pan:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "335.0",
+      "name": "Tablets (iPad)",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "874",
+      "name": "Talonarios de notas, pedidos o recibos:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "875",
+      "name": "Tapones y tapas plasticos:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "336.0",
+      "name": "Tarjetas de Invitaciones",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "876",
+      "name": "Telas:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "236.0",
+      "name": "Teléfonos celulares",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "877",
+      "name": "Termostatos:",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "878",
+      "name": "Timbres, zumbadores de puertas:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "337.0",
+      "name": "Toallas",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "879",
+      "name": "Toallas desmaquillantes:",
+      "daiRate": 0.1
+    },
+    {
+      "arancelId": "880",
+      "name": "Tocadiscos:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "881",
+      "name": "Tostadoras de pan:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "882",
+      "name": "Trituradoras y mezcladoras de alimentos:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "883",
+      "name": "Vajilla para el servicio de mesa o cocina:",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "338.0",
+      "name": "Videocamara",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "339.0",
+      "name": "Videocintas",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "340.0",
+      "name": "Videojuegos Cassette",
+      "daiRate": 0.15
+    },
+    {
+      "arancelId": "341.0",
+      "name": "Videojuegos CD/DVD/BlueRay",
+      "daiRate": 0
+    },
+    {
+      "arancelId": "884",
+      "name": "Volantes, columnas y cajas de dirección:",
+      "daiRate": 0.05
+    },
+    {
+      "arancelId": "342.0",
+      "name": "Zapatos",
+      "daiRate": 0.15
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "providerId": "buyex",
+  "providerName": "Buyex",
+  "verifiedAt": "2026-08-13",
+  "sourceUrl": "https://comprabuyex.com/app/modules/estimaciones/assets/js/estimaciones.js",
+  "officialQuoterUrl": "https://comprabuyex.com/cotizarconbuyex/",
+  "confidence": "exact",
+  "serviceType": "prealerta",
+  "weightRounding": "round",
+  "minBillableLb": 1,
+  "modes": {
+    "aereo": {
+      "ratePerLb": 4.99,
+      "minWeightLb": null,
+      "transitDays": {
+        "min": 3,
+        "max": 5
+      }
+    },
+    "maritimo": {
+      "ratePerLb": 2.99,
+      "minWeightLb": 8,
+      "transitDays": {
+        "min": 15,
+        "max": 20
+      }
+    }
+  },
+  "vatRate": 0.13,
+  "taxableBaseKind": "cif",
+  "insuranceRate": 0.015,
+  "customsFreightRate": 0.1,
+  "daiExemption": {
+    "belowUsd": 300,
+    "sourceOptionValue": "167",
+    "sourceName": "*COMPRAS MENORES A $300.00 DOLARES EXENTA DE DAI",
+    "note": "La formula de Buyex no lleva umbral: la exencion se aplica porque el usuario elige esta categoria al 0% en su cotizador. La replicamos automaticamente para que la comparacion sea justa frente a Shop USA, que si la tiene en codigo."
+  },
+  "excludes": [
+    "entregas locales",
+    "entregas departamentales"
+  ]
+}

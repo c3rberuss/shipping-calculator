@@ -1,0 +1,328 @@
+{
+  "providerId": "shopusa",
+  "extractedAt": "2026-08-13",
+  "sourceUrl": "https://shopusa.la/_next/static/chunks/pages/index-74849155208feeae.js",
+  "note": "Catalogo extraido literal del bundle de la calculadora de Shop USA. daiRate en fraccion.",
+  "categories": [
+    {
+      "group": "Tecnología: cómputo, conectividad y telecomunicaciones",
+      "name": "Laptops, notebooks, servidores y computadoras",
+      "daiRate": 0
+    },
+    {
+      "group": "Tecnología: cómputo, conectividad y telecomunicaciones",
+      "name": "Smartphones, tabletas y lectores electrónicos",
+      "daiRate": 0
+    },
+    {
+      "group": "Tecnología: cómputo, conectividad y telecomunicaciones",
+      "name": "Routers, módems, switches, antenas y repetidores",
+      "daiRate": 0
+    },
+    {
+      "group": "Tecnología: cómputo, conectividad y telecomunicaciones",
+      "name": "Smartwatches, pulseras de actividad y visores VR/AR",
+      "daiRate": 0
+    },
+    {
+      "group": "Tecnología: cómputo, conectividad y telecomunicaciones",
+      "name": "Fax, teléfonos fijos y sus accesorios",
+      "daiRate": 0
+    },
+    {
+      "group": "Tecnología: cómputo, conectividad y telecomunicaciones",
+      "name": "Videocámaras de circuito cerrado",
+      "daiRate": 0
+    },
+    {
+      "group": "Tecnología: componentes, periféricos y equipo especializado",
+      "name": "SSD, HDD, GPU, CPU, motherboards y memoria RAM",
+      "daiRate": 0
+    },
+    {
+      "group": "Tecnología: componentes, periféricos y equipo especializado",
+      "name": "Monitores, teclados, mouse, webcams y micrófonos",
+      "daiRate": 0
+    },
+    {
+      "group": "Tecnología: componentes, periféricos y equipo especializado",
+      "name": "Impresoras de tinta, láser, 3D y escáneres",
+      "daiRate": 0
+    },
+    {
+      "group": "Tecnología: componentes, periféricos y equipo especializado",
+      "name": "Fundas para teléfonos y mochilas para laptops",
+      "daiRate": 0.15
+    },
+    {
+      "group": "Tecnología: componentes, periféricos y equipo especializado",
+      "name": "Cables, cargadores de pared y baterías externas",
+      "daiRate": 0.1
+    },
+    {
+      "group": "Tecnología: componentes, periféricos y equipo especializado",
+      "name": "Equipo de oficina y accesorios",
+      "daiRate": 0.15
+    },
+    {
+      "group": "Tecnología: componentes, periféricos y equipo especializado",
+      "name": "Papelería y artículos escolares o de oficina",
+      "daiRate": 0.15
+    },
+    {
+      "group": "Tecnología: componentes, periféricos y equipo especializado",
+      "name": "Repuestos eléctricos",
+      "daiRate": 0
+    },
+    {
+      "group": "Tecnología: componentes, periféricos y equipo especializado",
+      "name": "Repuestos para máquinas industriales",
+      "daiRate": 0
+    },
+    {
+      "group": "Tecnología: consolas, audio, video y medios",
+      "name": "Consolas de videojuegos",
+      "daiRate": 0.15
+    },
+    {
+      "group": "Tecnología: consolas, audio, video y medios",
+      "name": "Cartuchos y discos físicos de videojuegos",
+      "daiRate": 0.15
+    },
+    {
+      "group": "Tecnología: consolas, audio, video y medios",
+      "name": "Smart TVs LED, OLED y QLED",
+      "daiRate": 0.15
+    },
+    {
+      "group": "Tecnología: consolas, audio, video y medios",
+      "name": "Audífonos, barras de sonido y altavoces",
+      "daiRate": 0.15
+    },
+    {
+      "group": "Tecnología: consolas, audio, video y medios",
+      "name": "Cámaras, lentes fotográficos y drones con cámara",
+      "daiRate": 0.1
+    },
+    {
+      "group": "Tecnología: consolas, audio, video y medios",
+      "name": "Amplificadores de sonido",
+      "daiRate": 0
+    },
+    {
+      "group": "Tecnología: consolas, audio, video y medios",
+      "name": "CD de música",
+      "daiRate": 0.1
+    },
+    {
+      "group": "Tecnología: consolas, audio, video y medios",
+      "name": "DVD de música",
+      "daiRate": 0.1
+    },
+    {
+      "group": "Tecnología: consolas, audio, video y medios",
+      "name": "DVD de video y audio",
+      "daiRate": 0
+    },
+    {
+      "group": "Tecnología: consolas, audio, video y medios",
+      "name": "Instrumentos musicales",
+      "daiRate": 0.1
+    },
+    {
+      "group": "Consumo: cuidado personal, belleza y salud",
+      "name": "Medicamentos, vitaminas, fórmulas y equipo de diagnóstico",
+      "daiRate": 0
+    },
+    {
+      "group": "Consumo: cuidado personal, belleza y salud",
+      "name": "Cosméticos y maquillaje",
+      "daiRate": 0.15
+    },
+    {
+      "group": "Consumo: cuidado personal, belleza y salud",
+      "name": "Cuidado de la piel y el cabello",
+      "daiRate": 0.15
+    },
+    {
+      "group": "Consumo: cuidado personal, belleza y salud",
+      "name": "Productos de higiene diaria",
+      "daiRate": 0.1
+    },
+    {
+      "group": "Consumo: cuidado personal, belleza y salud",
+      "name": "Pañales, compresas y tampones higiénicos",
+      "daiRate": 0.15
+    },
+    {
+      "group": "Consumo: cuidado personal, belleza y salud",
+      "name": "Aros para lentes",
+      "daiRate": 0
+    },
+    {
+      "group": "Consumo: cuidado personal, belleza y salud",
+      "name": "Lentes de contacto",
+      "daiRate": 0.05
+    },
+    {
+      "group": "Consumo: cuidado personal, belleza y salud",
+      "name": "Lentes en bruto",
+      "daiRate": 0
+    },
+    {
+      "group": "Consumo: cuidado personal, belleza y salud",
+      "name": "Perfumes sujetos a restricciones",
+      "daiRate": 0.15
+    },
+    {
+      "group": "Consumo: textil, calzado, moda y deporte",
+      "name": "Prendas de vestir",
+      "daiRate": 0.15
+    },
+    {
+      "group": "Consumo: textil, calzado, moda y deporte",
+      "name": "Calzado",
+      "daiRate": 0.15
+    },
+    {
+      "group": "Consumo: textil, calzado, moda y deporte",
+      "name": "Carteras, billeteras, bolsos y maletas",
+      "daiRate": 0.15
+    },
+    {
+      "group": "Consumo: textil, calzado, moda y deporte",
+      "name": "Relojes tradicionales, joyería y accesorios de moda",
+      "daiRate": 0.15
+    },
+    {
+      "group": "Consumo: textil, calzado, moda y deporte",
+      "name": "Artículos deportivos",
+      "daiRate": 0.1
+    },
+    {
+      "group": "Consumo: textil, calzado, moda y deporte",
+      "name": "Bicicletas sin motor",
+      "daiRate": 0.15
+    },
+    {
+      "group": "Consumo: textil, calzado, moda y deporte",
+      "name": "Sombreros y cascos de seguridad",
+      "daiRate": 0.15
+    },
+    {
+      "group": "Consumo: textil, calzado, moda y deporte",
+      "name": "Paraguas, sombrillas, quitasoles y bastones",
+      "daiRate": 0.15
+    },
+    {
+      "group": "Consumo: hogar, vehículos y bienes generales",
+      "name": "Línea blanca y electrodomésticos",
+      "daiRate": 0.15
+    },
+    {
+      "group": "Consumo: hogar, vehículos y bienes generales",
+      "name": "Licuadoras, cafeteras y freidoras de aire",
+      "daiRate": 0.15
+    },
+    {
+      "group": "Consumo: hogar, vehículos y bienes generales",
+      "name": "Aspiradoras y planchas de ropa",
+      "daiRate": 0.1
+    },
+    {
+      "group": "Consumo: hogar, vehículos y bienes generales",
+      "name": "Muebles y decoración",
+      "daiRate": 0.15
+    },
+    {
+      "group": "Consumo: hogar, vehículos y bienes generales",
+      "name": "Juguetes y artículos infantiles",
+      "daiRate": 0.15
+    },
+    {
+      "group": "Consumo: hogar, vehículos y bienes generales",
+      "name": "Herramientas de bricolaje",
+      "daiRate": 0.1
+    },
+    {
+      "group": "Consumo: hogar, vehículos y bienes generales",
+      "name": "Accesorios para motocicletas",
+      "daiRate": 0.05
+    },
+    {
+      "group": "Consumo: hogar, vehículos y bienes generales",
+      "name": "Accesorios para vehículos",
+      "daiRate": 0.05
+    },
+    {
+      "group": "Consumo: hogar, vehículos y bienes generales",
+      "name": "Artículos para cocina y mesa",
+      "daiRate": 0.15
+    },
+    {
+      "group": "Consumo: hogar, vehículos y bienes generales",
+      "name": "Termos y recipientes isotérmicos",
+      "daiRate": 0.1
+    },
+    {
+      "group": "Consumo: hogar, vehículos y bienes generales",
+      "name": "Artículos para fiestas y temporada",
+      "daiRate": 0.15
+    },
+    {
+      "group": "Consumo: hogar, vehículos y bienes generales",
+      "name": "Azúcar",
+      "daiRate": 0.4
+    },
+    {
+      "group": "Consumo: hogar, vehículos y bienes generales",
+      "name": "Comestibles permitidos",
+      "daiRate": 0.15
+    },
+    {
+      "group": "Consumo: hogar, vehículos y bienes generales",
+      "name": "Libros",
+      "daiRate": 0
+    },
+    {
+      "group": "Consumo: hogar, vehículos y bienes generales",
+      "name": "Manufacturas de hierro",
+      "daiRate": 0.1
+    },
+    {
+      "group": "Consumo: hogar, vehículos y bienes generales",
+      "name": "Manufacturas de madera",
+      "daiRate": 0.15
+    },
+    {
+      "group": "Consumo: hogar, vehículos y bienes generales",
+      "name": "Manufacturas de vidrio",
+      "daiRate": 0.15
+    },
+    {
+      "group": "Consumo: hogar, vehículos y bienes generales",
+      "name": "Manufacturas plásticas",
+      "daiRate": 0.15
+    },
+    {
+      "group": "Consumo: hogar, vehículos y bienes generales",
+      "name": "Materia prima",
+      "daiRate": 0
+    },
+    {
+      "group": "Consumo: hogar, vehículos y bienes generales",
+      "name": "Otros bienes",
+      "daiRate": 0.2
+    },
+    {
+      "group": "Consumo: hogar, vehículos y bienes generales",
+      "name": "Repuestos para motocicletas",
+      "daiRate": 0.05
+    },
+    {
+      "group": "Consumo: hogar, vehículos y bienes generales",
+      "name": "Repuestos mecánicos para vehículos",
+      "daiRate": 0.01
+    }
+  ]
+}

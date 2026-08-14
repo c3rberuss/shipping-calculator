@@ -1,0 +1,1612 @@
+{
+  "version": "2026-08-13",
+  "note": "Catalogo unificado. Cada categoria mapea al equivalente nativo de cada proveedor y conserva SU tasa de DAI, no una unificada: los tres asignan aranceles distintos al mismo articulo. Generado por scripts/build-catalog.mjs.",
+  "categories": [
+    {
+      "id": "laptops-computadoras",
+      "label": "Laptops y computadoras",
+      "aliases": [
+        "laptop",
+        "macbook",
+        "notebook",
+        "pc",
+        "computadora",
+        "desktop"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Laptops, notebooks, servidores y computadoras",
+          "daiRate": 0,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "28",
+          "name": "COMPUTADORAS Y ACCESORIOS(EXCEPTO CABLES) (0% DAI)",
+          "daiRate": 0,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "297.0",
+          "name": "Laptop",
+          "daiRate": 0,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "celulares-tablets",
+      "label": "Celulares y tablets",
+      "aliases": [
+        "celular",
+        "smartphone",
+        "iphone",
+        "android",
+        "tablet",
+        "ipad",
+        "kindle"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Smartphones, tabletas y lectores electrónicos",
+          "daiRate": 0,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "41",
+          "name": "TELEFONOS Y TABLETS (0% DAI)",
+          "daiRate": 0,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "268.0",
+          "name": "Celulares",
+          "daiRate": 0,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "componentes-pc",
+      "label": "Componentes de PC",
+      "aliases": [
+        "ssd",
+        "disco duro",
+        "gpu",
+        "tarjeta de video",
+        "cpu",
+        "procesador",
+        "ram",
+        "motherboard"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "SSD, HDD, GPU, CPU, motherboards y memoria RAM",
+          "daiRate": 0,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "152",
+          "name": "PARTES PARA COMPUTADORA (0% DAI)",
+          "daiRate": 0,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "231.0",
+          "name": "Accesorio de Computacion",
+          "daiRate": 0.05,
+          "match": "approximate"
+        }
+      }
+    },
+    {
+      "id": "perifericos",
+      "label": "Teclado, mouse y periféricos",
+      "aliases": [
+        "teclado",
+        "mouse",
+        "webcam",
+        "microfono",
+        "periferico"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Monitores, teclados, mouse, webcams y micrófonos",
+          "daiRate": 0,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "147",
+          "name": "MOUSE (0% DAI)",
+          "daiRate": 0,
+          "match": "approximate"
+        },
+        "quickbox": {
+          "arancelId": "231.0",
+          "name": "Accesorio de Computacion",
+          "daiRate": 0.05,
+          "match": "approximate"
+        }
+      }
+    },
+    {
+      "id": "monitores",
+      "label": "Monitores",
+      "aliases": [
+        "monitor",
+        "pantalla",
+        "display",
+        "hdmi"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Monitores, teclados, mouse, webcams y micrófonos",
+          "daiRate": 0,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "119",
+          "name": "MONITORES CON HDMI (15% DAI)",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "1607",
+          "name": "Pantallas de TV",
+          "daiRate": 0.15,
+          "match": "approximate"
+        }
+      }
+    },
+    {
+      "id": "impresoras",
+      "label": "Impresoras y escáneres",
+      "aliases": [
+        "impresora",
+        "printer",
+        "escaner",
+        "scanner",
+        "impresora 3d"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Impresoras de tinta, láser, 3D y escáneres",
+          "daiRate": 0,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "87",
+          "name": "IMPRESORES (0% DAI)",
+          "daiRate": 0,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "291.0",
+          "name": "Impresoras",
+          "daiRate": 0,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "redes",
+      "label": "Routers y equipo de red",
+      "aliases": [
+        "router",
+        "modem",
+        "switch",
+        "antena",
+        "repetidor",
+        "wifi"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Routers, módems, switches, antenas y repetidores",
+          "daiRate": 0,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "174",
+          "name": "ROUTER DE RED (0% DAI)",
+          "daiRate": 0,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "231.0",
+          "name": "Accesorio de Computacion",
+          "daiRate": 0.05,
+          "match": "approximate"
+        }
+      }
+    },
+    {
+      "id": "smartwatch",
+      "label": "Smartwatches y pulseras de actividad",
+      "aliases": [
+        "smartwatch",
+        "apple watch",
+        "reloj inteligente",
+        "fitbit",
+        "vr"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Smartwatches, pulseras de actividad y visores VR/AR",
+          "daiRate": 0,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "110",
+          "name": "RELOJ INTELIGENTE (5% DAI)",
+          "daiRate": 0.05,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "1602",
+          "name": "smartwatch:",
+          "daiRate": 0,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "accesorios-telefono",
+      "label": "Fundas y accesorios de teléfono",
+      "aliases": [
+        "funda",
+        "case",
+        "protector",
+        "mica",
+        "accesorio celular",
+        "mochila laptop"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Fundas para teléfonos y mochilas para laptops",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "109",
+          "name": "ACCESORIOS PARA TELEFONOS (15% DAI)",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "235.0",
+          "name": "Accesorio de Telefonia",
+          "daiRate": 0.15,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "cables-cargadores",
+      "label": "Cables, cargadores y baterías externas",
+      "aliases": [
+        "cable",
+        "cargador",
+        "power bank",
+        "bateria externa",
+        "usb"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Cables, cargadores de pared y baterías externas",
+          "daiRate": 0.1,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "29",
+          "name": "CABLES DE PODER (15% DAI)",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "260.0",
+          "name": "Cargadores de computadora, celular",
+          "daiRate": 0,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "consolas-videojuegos",
+      "label": "Consolas de videojuegos",
+      "aliases": [
+        "consola",
+        "playstation",
+        "ps5",
+        "xbox",
+        "nintendo",
+        "switch"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Consolas de videojuegos",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "14",
+          "name": "CONSOLAS Y ACCESORIOS DE VIDEOJUEGOS (15% DAI)",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "272.0",
+          "name": "Consola de Videojuegos",
+          "daiRate": 0.15,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "juegos-fisicos",
+      "label": "Videojuegos físicos",
+      "aliases": [
+        "videojuego",
+        "juego",
+        "cartucho",
+        "disco de juego"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Cartuchos y discos físicos de videojuegos",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "15",
+          "name": "JUEGO DE VIDEO EN CD O DVD (0% DAI)",
+          "daiRate": 0,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "341.0",
+          "name": "Videojuegos CD/DVD/BlueRay",
+          "daiRate": 0,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "televisores",
+      "label": "Televisores",
+      "aliases": [
+        "tv",
+        "televisor",
+        "smart tv",
+        "oled",
+        "qled",
+        "led"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Smart TVs LED, OLED y QLED",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "43",
+          "name": "TELEVISORES (15% DAI)",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "1607",
+          "name": "Pantallas de TV",
+          "daiRate": 0.15,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "audifonos",
+      "label": "Audífonos",
+      "aliases": [
+        "audifono",
+        "auricular",
+        "headphone",
+        "airpods",
+        "earbuds"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Audífonos, barras de sonido y altavoces",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "65",
+          "name": "AUDIFONOS (0% DAI)",
+          "daiRate": 0,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "233.0",
+          "name": "Audifonos",
+          "daiRate": 0,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "bocinas-bluetooth",
+      "label": "Bocinas y barras de sonido",
+      "aliases": [
+        "bocina",
+        "parlante",
+        "altavoz",
+        "speaker",
+        "soundbar",
+        "barra de sonido"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Audífonos, barras de sonido y altavoces",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "116",
+          "name": "BOCINA BLUETOOTH (15% DAI)",
+          "daiRate": 0.15,
+          "match": "approximate"
+        },
+        "quickbox": {
+          "arancelId": "752",
+          "name": "Altavoces (altoparlantes):",
+          "daiRate": 0,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "camaras",
+      "label": "Cámaras y lentes fotográficos",
+      "aliases": [
+        "camara",
+        "lente",
+        "fotografia",
+        "dslr",
+        "mirrorless",
+        "gopro"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Cámaras, lentes fotográficos y drones con cámara",
+          "daiRate": 0.1,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "72",
+          "name": "CAMARAS DIGITALES DE VIDEO O FOTOGRAFICAS (0% DAI)",
+          "daiRate": 0,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "259.0",
+          "name": "Camara Fotografica",
+          "daiRate": 0,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "drones",
+      "label": "Drones",
+      "aliases": [
+        "drone",
+        "dron",
+        "dji"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Cámaras, lentes fotográficos y drones con cámara",
+          "daiRate": 0.1,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "115",
+          "name": "DRONE (0% DAI)",
+          "daiRate": 0,
+          "match": "approximate"
+        },
+        "quickbox": {
+          "arancelId": "776",
+          "name": "Cámaras de televisión, cámaras digitales y videocámaras:",
+          "daiRate": 0,
+          "match": "approximate"
+        }
+      }
+    },
+    {
+      "id": "instrumentos-musicales",
+      "label": "Instrumentos musicales",
+      "aliases": [
+        "guitarra",
+        "teclado musical",
+        "piano",
+        "bateria musical",
+        "instrumento"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Instrumentos musicales",
+          "daiRate": 0.1,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "85",
+          "name": "INSTRUMENTOS MUSICALES (10% DAI)",
+          "daiRate": 0.1,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "746",
+          "name": "Acordeones e instrumentos similares:",
+          "daiRate": 0.1,
+          "match": "approximate"
+        }
+      }
+    },
+    {
+      "id": "equipo-medico",
+      "label": "Equipo médico y de diagnóstico",
+      "aliases": [
+        "medico",
+        "oximetro",
+        "tensiometro",
+        "termometro",
+        "nebulizador"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Medicamentos, vitaminas, fórmulas y equipo de diagnóstico",
+          "daiRate": 0,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "84",
+          "name": "EQUIPO DE USO MEDICO (0% DAI)",
+          "daiRate": 0,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "281.0",
+          "name": "Equipo Medico",
+          "daiRate": 0,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "suplementos",
+      "label": "Vitaminas y suplementos",
+      "aliases": [
+        "vitamina",
+        "suplemento",
+        "proteina",
+        "creatina",
+        "omega"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Medicamentos, vitaminas, fórmulas y equipo de diagnóstico",
+          "daiRate": 0,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "117",
+          "name": "SUPLEMENTO ALIMENTICIO (15% DAI)",
+          "daiRate": 0.15,
+          "match": "approximate"
+        },
+        "quickbox": {
+          "arancelId": "312.0",
+          "name": "Medicamentos",
+          "daiRate": 0.05,
+          "match": "approximate"
+        }
+      }
+    },
+    {
+      "id": "cosmeticos",
+      "label": "Cosméticos y maquillaje",
+      "aliases": [
+        "maquillaje",
+        "cosmetico",
+        "labial",
+        "base",
+        "rimel"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Cosméticos y maquillaje",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "19",
+          "name": "COSMETICOS (15% DAI)",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "273.0",
+          "name": "Cosmeticos",
+          "daiRate": 0.15,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "cuidado-piel-cabello",
+      "label": "Cuidado de la piel y el cabello",
+      "aliases": [
+        "shampoo",
+        "crema",
+        "skincare",
+        "acondicionador",
+        "serum"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Cuidado de la piel y el cabello",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "21",
+          "name": "PRODUCTOS PARA EL CUIDADO DEL CABELLO (15% DAI)",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "227.0",
+          "name": "Accesorio de Aseo Personal",
+          "daiRate": 0.15,
+          "match": "approximate"
+        }
+      }
+    },
+    {
+      "id": "higiene-diaria",
+      "label": "Productos de higiene diaria",
+      "aliases": [
+        "jabon",
+        "desodorante",
+        "pasta dental",
+        "higiene"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Productos de higiene diaria",
+          "daiRate": 0.1,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "22",
+          "name": "JABONES (15% DAI)",
+          "daiRate": 0.15,
+          "match": "approximate"
+        },
+        "quickbox": {
+          "arancelId": "227.0",
+          "name": "Accesorio de Aseo Personal",
+          "daiRate": 0.15,
+          "match": "approximate"
+        }
+      }
+    },
+    {
+      "id": "perfumes",
+      "label": "Perfumes",
+      "aliases": [
+        "perfume",
+        "fragancia",
+        "colonia",
+        "eau de parfum"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Perfumes sujetos a restricciones",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "111",
+          "name": "PERFUMES (15% DAI)",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "1591",
+          "name": "perfumes y lociones",
+          "daiRate": 0.15,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "lentes-armazon",
+      "label": "Lentes y armazones",
+      "aliases": [
+        "lentes",
+        "anteojos",
+        "gafas",
+        "armazon",
+        "sol"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Aros para lentes",
+          "daiRate": 0,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "7",
+          "name": "LENTES (15% DAI)",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "298.0",
+          "name": "Lentes (solo aro)",
+          "daiRate": 0,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "lentes-contacto",
+      "label": "Lentes de contacto",
+      "aliases": [
+        "lente de contacto",
+        "pupilente"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Lentes de contacto",
+          "daiRate": 0.05,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "162",
+          "name": "LENTES DE CONTACTO (5% DAI)",
+          "daiRate": 0.05,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "299.0",
+          "name": "Lentes de Contacto",
+          "daiRate": 0.05,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "ropa",
+      "label": "Ropa",
+      "aliases": [
+        "ropa",
+        "camisa",
+        "pantalon",
+        "vestido",
+        "chaqueta",
+        "prenda"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Prendas de vestir",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "4",
+          "name": "ROPA (15% DAI)",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "332.0",
+          "name": "Ropa",
+          "daiRate": 0.15,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "calzado",
+      "label": "Calzado",
+      "aliases": [
+        "zapato",
+        "tenis",
+        "sneaker",
+        "bota",
+        "sandalia",
+        "calzado"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Calzado",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "3",
+          "name": "CALZADO (15% DAI)",
+          "daiRate": 0.14,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "342.0",
+          "name": "Zapatos",
+          "daiRate": 0.15,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "carteras-maletas",
+      "label": "Carteras, bolsos y maletas",
+      "aliases": [
+        "cartera",
+        "billetera",
+        "bolso",
+        "maleta",
+        "mochila",
+        "valija"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Carteras, billeteras, bolsos y maletas",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "91",
+          "name": "MALETAS Y MOCHILAS (15% DAI)",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "308.0",
+          "name": "Maleta",
+          "daiRate": 0.15,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "relojes-joyeria",
+      "label": "Relojes y joyería",
+      "aliases": [
+        "reloj",
+        "joyeria",
+        "anillo",
+        "cadena",
+        "oro",
+        "plata"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Relojes tradicionales, joyería y accesorios de moda",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "175",
+          "name": "RELOJES (15% DAI)",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "324.0",
+          "name": "Reloj de Pulsera/Pared",
+          "daiRate": 0.15,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "bisuteria",
+      "label": "Bisutería",
+      "aliases": [
+        "bisuteria",
+        "accesorio de moda",
+        "fantasia"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Relojes tradicionales, joyería y accesorios de moda",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "8",
+          "name": "BISUTERIA (14% DAI)",
+          "daiRate": 0.14,
+          "match": "approximate"
+        },
+        "quickbox": {
+          "arancelId": "292.0",
+          "name": "Joyeria/Bisuteria",
+          "daiRate": 0.15,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "sombreros-gorras",
+      "label": "Sombreros, gorras y cascos",
+      "aliases": [
+        "gorra",
+        "sombrero",
+        "casco",
+        "gorro"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Sombreros y cascos de seguridad",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "6",
+          "name": "SOMBREROS GORRAS Y GORROS (15% DAI)",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "287.0",
+          "name": "Gorras/Cachuchas",
+          "daiRate": 0.15,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "paraguas",
+      "label": "Paraguas y sombrillas",
+      "aliases": [
+        "paraguas",
+        "sombrilla",
+        "quitasol",
+        "baston"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Paraguas, sombrillas, quitasoles y bastones",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "100",
+          "name": "SOMBRILLAS (14% DAI)",
+          "daiRate": 0.14,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "870",
+          "name": "Sombrillas:",
+          "daiRate": 0.15,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "articulos-deportivos",
+      "label": "Artículos deportivos",
+      "aliases": [
+        "deporte",
+        "balon",
+        "pelota",
+        "raqueta",
+        "guante"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Artículos deportivos",
+          "daiRate": 0.1,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "17",
+          "name": "EQUIPO DEPORTIVO (15% DAI)",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "237.0",
+          "name": "Accesorio Deportivo",
+          "daiRate": 0.15,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "bicicletas",
+      "label": "Bicicletas",
+      "aliases": [
+        "bicicleta",
+        "bici",
+        "mtb",
+        "ciclismo"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Bicicletas sin motor",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "13",
+          "name": "BICICLETAS (15% DAI)",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "253.0",
+          "name": "Bicicleta",
+          "daiRate": 0.15,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "maquinas-ejercicio",
+      "label": "Máquinas de ejercicio",
+      "aliases": [
+        "caminadora",
+        "trotadora",
+        "eliptica",
+        "pesas",
+        "gimnasio"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Artículos deportivos",
+          "daiRate": 0.1,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "97",
+          "name": "MAQUINAS DE EJERCICIO (10% DAI)",
+          "daiRate": 0.1,
+          "match": "approximate"
+        },
+        "quickbox": {
+          "arancelId": "237.0",
+          "name": "Accesorio Deportivo",
+          "daiRate": 0.15,
+          "match": "approximate"
+        }
+      }
+    },
+    {
+      "id": "patines-patinetas",
+      "label": "Patines y patinetas",
+      "aliases": [
+        "patineta",
+        "skate",
+        "patin",
+        "scooter"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Artículos deportivos",
+          "daiRate": 0.1,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "16",
+          "name": "PATINES Y PATINETAS (15% DAI)",
+          "daiRate": 0.15,
+          "match": "approximate"
+        },
+        "quickbox": {
+          "arancelId": "237.0",
+          "name": "Accesorio Deportivo",
+          "daiRate": 0.15,
+          "match": "approximate"
+        }
+      }
+    },
+    {
+      "id": "linea-blanca",
+      "label": "Línea blanca",
+      "aliases": [
+        "refrigeradora",
+        "lavadora",
+        "secadora",
+        "cocina",
+        "estufa",
+        "congelador"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Línea blanca y electrodomésticos",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "40",
+          "name": "REFRIGERADORAS (15% DAI)",
+          "daiRate": 0.15,
+          "match": "approximate"
+        },
+        "quickbox": {
+          "arancelId": "280.0",
+          "name": "Electrodomesticos",
+          "daiRate": 0.15,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "electrodomesticos-cocina",
+      "label": "Electrodomésticos de cocina",
+      "aliases": [
+        "licuadora",
+        "cafetera",
+        "freidora",
+        "air fryer",
+        "batidora",
+        "tostadora"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Licuadoras, cafeteras y freidoras de aire",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "36",
+          "name": "LICUADORAS (15% DAI)",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "280.0",
+          "name": "Electrodomesticos",
+          "daiRate": 0.15,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "microondas",
+      "label": "Microondas",
+      "aliases": [
+        "microondas",
+        "horno de microondas"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Línea blanca y electrodomésticos",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "32",
+          "name": "MICROONDAS (5% DAI)",
+          "daiRate": 0.05,
+          "match": "approximate"
+        },
+        "quickbox": {
+          "arancelId": "290.0",
+          "name": "Horno electrico/microondas",
+          "daiRate": 0.05,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "aspiradoras",
+      "label": "Aspiradoras y planchas",
+      "aliases": [
+        "aspiradora",
+        "plancha",
+        "robot de limpieza",
+        "roomba"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Aspiradoras y planchas de ropa",
+          "daiRate": 0.1,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "48",
+          "name": "ASPIRADORAS (15% DAI)",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "764",
+          "name": "Aspiradoras:",
+          "daiRate": 0.15,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "muebles",
+      "label": "Muebles",
+      "aliases": [
+        "mueble",
+        "silla",
+        "mesa",
+        "escritorio",
+        "sofa",
+        "cama"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Muebles y decoración",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "70",
+          "name": "MUEBLES (15% DAI)",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "315.0",
+          "name": "Muebles de Casa",
+          "daiRate": 0.15,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "decoracion",
+      "label": "Decoración",
+      "aliases": [
+        "adorno",
+        "decoracion",
+        "cuadro",
+        "espejo",
+        "lampara"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Muebles y decoración",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "59",
+          "name": "ADORNOS (15% DAI)",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "243.0",
+          "name": "Adornos de sala",
+          "daiRate": 0.15,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "articulos-cocina",
+      "label": "Artículos de cocina y mesa",
+      "aliases": [
+        "olla",
+        "sarten",
+        "vajilla",
+        "cuchillo",
+        "utensilio"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Artículos para cocina y mesa",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "9",
+          "name": "ARTICULOS DE COCINA (15% DAI)",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "230.0",
+          "name": "Accesorio de Cocina",
+          "daiRate": 0.15,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "ropa-cama",
+      "label": "Ropa de cama y toallas",
+      "aliases": [
+        "sabana",
+        "edredon",
+        "almohada",
+        "toalla",
+        "colcha"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Muebles y decoración",
+          "daiRate": 0.15,
+          "match": "approximate"
+        },
+        "buyex": {
+          "optionValue": "77",
+          "name": "ROPA DE CAMA Y ACCESORIOS DE CAMA (15% DAI)",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "330.0",
+          "name": "Ropa de cama",
+          "daiRate": 0.15,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "juguetes",
+      "label": "Juguetes",
+      "aliases": [
+        "juguete",
+        "lego",
+        "muneca",
+        "peluche",
+        "figura"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Juguetes y artículos infantiles",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "12",
+          "name": "JUGUETES (15% DAI)",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "294.0",
+          "name": "Juguetes",
+          "daiRate": 0.15,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "asientos-bebe",
+      "label": "Asientos y sillas para bebé",
+      "aliases": [
+        "asiento de bebe",
+        "silla de carro",
+        "car seat",
+        "coche",
+        "carriola"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Juguetes y artículos infantiles",
+          "daiRate": 0.15,
+          "match": "approximate"
+        },
+        "buyex": {
+          "optionValue": "129",
+          "name": "ASIENTOS PARA AUTO (15% DAI)",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "293.0",
+          "name": "Juguetes para bebe",
+          "daiRate": 0.15,
+          "match": "approximate"
+        }
+      }
+    },
+    {
+      "id": "herramientas",
+      "label": "Herramientas",
+      "aliases": [
+        "herramienta",
+        "taladro",
+        "destornillador",
+        "llave",
+        "bricolaje"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Herramientas de bricolaje",
+          "daiRate": 0.1,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "55",
+          "name": "HERRAMIENTAS DE MANO (0% DAI)",
+          "daiRate": 0,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "289.0",
+          "name": "Herramientas de Mano",
+          "daiRate": 0.15,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "repuestos-vehiculo",
+      "label": "Repuestos mecánicos de vehículo",
+      "aliases": [
+        "repuesto",
+        "auto",
+        "carro",
+        "motor",
+        "freno",
+        "suspension"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Repuestos mecánicos para vehículos",
+          "daiRate": 0.01,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "78",
+          "name": "PARTES DE VEHICULOS(EXCEPTO LAS LUCES) (1% DAI)",
+          "daiRate": 0.01,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "325.0",
+          "name": "Repuestos de Carro",
+          "daiRate": 0.01,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "accesorios-vehiculo",
+      "label": "Accesorios y luces de vehículo",
+      "aliases": [
+        "accesorio de carro",
+        "halogeno",
+        "luces",
+        "faro",
+        "tapete"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Accesorios para vehículos",
+          "daiRate": 0.05,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "86",
+          "name": "HALOGENOS PARA VEHICULO (5% DAI)",
+          "daiRate": 0.05,
+          "match": "approximate"
+        },
+        "quickbox": {
+          "arancelId": "229.0",
+          "name": "Accesorio de Carro",
+          "daiRate": 0.15,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "partes-moto",
+      "label": "Repuestos y accesorios de motocicleta",
+      "aliases": [
+        "moto",
+        "motocicleta",
+        "repuesto de moto"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Repuestos para motocicletas",
+          "daiRate": 0.05,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "125",
+          "name": "PARTES PARA MOTO (10% DAI)",
+          "daiRate": 0.1,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "327.0",
+          "name": "Repuestos de moto",
+          "daiRate": 0.05,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "papeleria",
+      "label": "Papelería y artículos escolares",
+      "aliases": [
+        "papeleria",
+        "cuaderno",
+        "lapiz",
+        "escolar",
+        "oficina"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Papelería y artículos escolares o de oficina",
+          "daiRate": 0.15,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "18",
+          "name": "ARTICULOS ESCOLARES (10% DAI)",
+          "daiRate": 0.1,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "234.0",
+          "name": "Accesorio de Oficina",
+          "daiRate": 0.15,
+          "match": "approximate"
+        }
+      }
+    },
+    {
+      "id": "libros",
+      "label": "Libros",
+      "aliases": [
+        "libro",
+        "texto",
+        "novela",
+        "manual"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Libros",
+          "daiRate": 0,
+          "match": "direct"
+        },
+        "buyex": {
+          "optionValue": "67",
+          "name": "LIBROS DE TEXTO (0% DAI)",
+          "daiRate": 0,
+          "match": "direct"
+        },
+        "quickbox": {
+          "arancelId": "303.0",
+          "name": "Libros",
+          "daiRate": 0,
+          "match": "direct"
+        }
+      }
+    },
+    {
+      "id": "otros",
+      "label": "Otros bienes",
+      "aliases": [
+        "otro",
+        "varios",
+        "general"
+      ],
+      "mappings": {
+        "shopusa": {
+          "name": "Otros bienes",
+          "daiRate": 0.2,
+          "match": "direct"
+        },
+        "buyex": null,
+        "quickbox": null
+      }
+    }
+  ]
+}

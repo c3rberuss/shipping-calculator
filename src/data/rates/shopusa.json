@@ -1,0 +1,31 @@
+{
+  "providerId": "shopusa",
+  "providerName": "Shop USA",
+  "verifiedAt": "2026-08-13",
+  "sourceUrl": "https://shopusa.la/_next/static/chunks/pages/index-74849155208feeae.js",
+  "officialQuoterUrl": "https://shopusa.la/",
+  "confidence": "exact",
+  "weightRounding": "ceil",
+  "modes": {
+    "aereo": {
+      "tiers": [
+        {
+          "maxLb": 5,
+          "ratePerLb": 4.99
+        },
+        {
+          "maxLb": null,
+          "ratePerLb": 4.4
+        }
+      ],
+      "transitDays": {
+        "min": 7,
+        "max": 15
+      }
+    }
+  },
+  "vatRate": 0.13,
+  "taxableBaseKind": "invoice",
+  "daiThresholdUsd": 300,
+  "volumetricNote": "Si el peso volumétrico supera 3 veces el peso real, Shop USA cobra el promedio entre ambos. Este cálculo no lo contempla."
+}
