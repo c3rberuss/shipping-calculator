@@ -37,8 +37,14 @@ jobs:
       # script de la pagina llegan a produccion con el build en verde.
       - run: pnpm check
 
+      # `enablement: true` habilita Pages via API en la primera corrida. Sin
+      # esto la accion falla con "Get Pages site failed" hasta que alguien lo
+      # active a mano en Settings, y el despliegue queda dependiendo de un paso
+      # manual que no esta en el repositorio.
       - id: pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - run: pnpm build
         env:
