@@ -89,7 +89,7 @@ Una sola consulta reemplaza tres. El usuario ingresa los datos del paquete una v
 
 - **Framework:** Astro con TypeScript. Se elige por generar HTML estático con JavaScript mínimo, enviando interactividad solo en la isla de cotización.
 - **Salida:** build estático puro. Sin SSR, sin funciones serverless, sin variables de entorno en runtime.
-- **Hosting:** GitHub Pages. El `base` de Astro debe configurarse acorde al nombre del repositorio si no se usa dominio propio.
+- **Hosting:** GitHub Pages con dominio propio (`ship.josueamaya.dev`), servido desde la raíz. `site` y `base` están fijos en `astro.config.mjs`.
 - **CI:** GitHub Actions solo para build y publicación en cada push a la rama principal.
 
 ### 3.2 Arquitectura del motor de cálculo
@@ -580,7 +580,7 @@ El sitio replica tarifas públicas de terceros y las presenta como estimaciones.
 2. ~~**`pais_id` y `fuente_id` de Quickbox.**~~ **Resuelto.** `pais_id` es 3 para El Salvador y `plan_id` 18 para el plan Estándar. `fuente_id` resultó irrelevante: pertenecía al buscador de aranceles de su API Laravel, no al cotizador, que vive en `node.qs.gt`.
 3. ~~**Granularidad del catálogo unificado.**~~ **Resuelto.** Son 54 categorías. Ante discrepancia se conserva la tasa nativa de cada proveedor, y los mapeos sin equivalente exacto se marcan `approximate` y lo advierten en la oferta. Pendiente menor: revisar si alguna de las 13 categorías con mapeo aproximado merece dividirse en dos entradas del catálogo unificado en vez de aproximar.
 4. **Términos de servicio de los tres proveedores.** No fueron revisados. Antes de publicar conviene verificar si alguno prohíbe la reproducción de sus tarifas.
-5. **Nombre y dominio del proyecto.** Sin definir.
+5. ~~**Nombre y dominio del proyecto.**~~ **Resuelto.** Dominio `ship.josueamaya.dev`.
 6. **Otras modalidades de Quickbox y Shop USA.** Se asume que ambos operan solo aéreo porque es lo único que exponen sus cotizadores. Queda por confirmar si tienen marítimo no publicado en línea.
 7. **Planes de Quickbox distintos al Estándar.** Su API expone también un plan Premium ($99 por 12 meses, 33 lb incluidas, $3.00/lb extra) que a cierto volumen sale más barato. Hoy solo se cotiza el Estándar. Queda por decidir si vale mostrar ambos.
 8. **Términos de uso de la API de Quickbox.** Responde sin autenticación y con CORS abierto, lo que sugiere uso público, pero no está documentada. Si alguna vez la cierran o piden identificación, la tarjeta degrada sola a "no disponible", que es el comportamiento correcto.

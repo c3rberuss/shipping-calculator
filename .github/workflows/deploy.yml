@@ -45,13 +45,10 @@ jobs:
       # para eso, pero el GITHUB_TOKEN no tiene permiso para crear el sitio y
       # falla con "Resource not accessible by integration"; solo funciona con un
       # token personal, que no vale la pena mantener por un clic.
-      - id: pages
-        uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v5
 
+      # `site` y `base` estan fijos en astro.config.mjs (dominio propio).
       - run: pnpm build
-        env:
-          SITE_URL: ${{ steps.pages.outputs.origin }}
-          BASE_PATH: ${{ steps.pages.outputs.base_path }}
 
       - uses: actions/upload-pages-artifact@v3
         with:
