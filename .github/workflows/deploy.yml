@@ -37,19 +37,18 @@ jobs:
       # script de la pagina llegan a produccion con el build en verde.
       - run: pnpm check
 
-      # `enablement: true` habilita Pages via API en la primera corrida. Sin
-      # esto la accion falla con "Get Pages site failed" hasta que alguien lo
-      # active a mano en Settings, y el despliegue queda dependiendo de un paso
-      # manual que no esta en el repositorio.
-      - id: pages
-        uses: actions/configure-pages@v5
-        with:
-          enablement: true
+      # Requiere un paso manual, una sola vez, antes del primer despliegue:
+      #
+      #   Settings -> Pages -> Build and deployment -> Source: GitHub Actions
+      #
+      # No se puede automatizar. El `enablement: true` de esta accion existe
+      # para eso, pero el GITHUB_TOKEN no tiene permiso para crear el sitio y
+      # falla con "Resource not accessible by integration"; solo funciona con un
+      # token personal, que no vale la pena mantener por un clic.
+      - uses: actions/configure-pages@v5
 
+      # `site` y `base` estan fijos en astro.config.mjs (dominio propio).
       - run: pnpm build
-        env:
-          SITE_URL: ${{ steps.pages.outputs.origin }}
-          BASE_PATH: ${{ steps.pages.outputs.base_path }}
 
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -2,16 +2,16 @@
 import { defineConfig } from 'astro/config';
 
 /*
- * `site` y `base` se inyectan desde el workflow de GitHub Pages
- * (actions/configure-pages expone la URL y el path del repositorio).
- * En local quedan en la raiz para que `pnpm dev` funcione sin configurar nada.
+ * El sitio se publica en un dominio propio, servido desde la raiz.
  *
- * Pendiente: fijar el dominio definitivo cuando se resuelva la pregunta
- * abierta 5 del spec (nombre y dominio del proyecto).
+ * `site` y `base` quedan fijos a proposito: antes se inyectaban desde
+ * actions/configure-pages, pero ese valor depende de si el dominio ya estaba
+ * configurado al momento del build. Un build hecho antes de asignar el dominio
+ * salio con base `/shipping-calculator/` y todos los assets dieron 404.
  */
 export default defineConfig({
-  site: process.env.SITE_URL || 'http://localhost:4321',
-  base: process.env.BASE_PATH || '/',
+  site: 'https://ship.josueamaya.dev',
+  base: '/',
   output: 'static',
   trailingSlash: 'ignore',
 });
